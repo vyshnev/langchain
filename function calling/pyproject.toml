@@ -1,0 +1,13 @@
+[project]
+name = "function-calling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=25.9.0",
+    "dotenv>=0.9.9",
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.1.12",
+    "langchain-tavily>=0.2.11",
+]
