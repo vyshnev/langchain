@@ -1,0 +1,4 @@
+*   [How to add a human-in-the-loop for tools](https://python.langchain.com/docs/how_to/tools_human/)
+    *   [How to bind model-specific tools](https://python.langchain.com/docs/how_to/tools_model_specific/)
+    *   [How to trim messages](https://python.langchain.com/docs/how_to/trim_messages/)
+    *   [How to create and query vector stores](https://python.langchain.com/docs/how_to/vectorstores/)
