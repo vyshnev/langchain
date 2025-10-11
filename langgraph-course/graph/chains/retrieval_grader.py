@@ -2,7 +2,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from langchain_openai import ChatOpenAI
 
-llm = ChatOpenAI(temperature=0)
+llm = ChatOpenAI(model="gpt-4-turbo",temperature=0)
 
 class GradeDocuments(BaseModel):
     """Base score for relevance check on retrieved documents"""
