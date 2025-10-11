@@ -24,4 +24,4 @@ grade_prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-retrieval_grade = grade_prompt | structured_llm_grader
+retrieval_grader = grade_prompt | structured_llm_grader
